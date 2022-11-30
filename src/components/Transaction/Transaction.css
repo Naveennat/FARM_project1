@@ -1,0 +1,35 @@
+.contacts form div {
+    display:table-row-group;
+    padding: 1px;
+  }
+  .contacts textarea {
+    border: 1px solid rgba(41, 40, 40, 0.598);
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .contacts input {
+    border: 1px solid rgba(17, 17, 17, 0.598);
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  .contacts form {
+    padding: 30px;
+    color: rgb(0, 0, 0);
+  }
+  @media screen and (max-width: 1080px) {
+    .contacts h3 {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .contacts form div {
+        flex-direction: column;
+    }
+    .contacts input {
+      width: 100%;
+    }
+    
+  }
+ 
+  
+  
